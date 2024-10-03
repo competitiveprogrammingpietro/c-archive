@@ -9,4 +9,5 @@ clean:
 	rm *.o exec *.live.* exe || true
 
 .PHONY: all
+# xxd -i mybinary > myheader.h
 
